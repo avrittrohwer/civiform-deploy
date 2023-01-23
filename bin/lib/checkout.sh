@@ -83,7 +83,7 @@ function checkout::initialize() {
   pushd checkout > /dev/null
 
   git init --initial-branch=main
-  git remote add origin http://github.com/civiform/cloud-deploy-infra
+  git remote add origin /home/avritt/github/cloud-deploy-infra
   git config core.sparseCheckout true
 
   echo "/cloud" >> .git/info/sparse-checkout
